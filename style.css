@@ -5,17 +5,74 @@
 }
 
 .profilephoto {
-    border: 3px solid aqua;
+    background-image: url("images/image-jeremy.png");
+    border: none;
     border-radius: 45px;
     width: 1rem;
     height: 1rem;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 .usermenu {
+    background-color: red;
     display: grid;
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+.workcard {
+    background-color: red;
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.playcard {
+    background-color: red;
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.studycard {
+    background-color: red;
+    display: grid;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.exercisecard {
+    background-color: red;
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.socialcard {
+    background-color: red;
+    display: grid;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.selfacarecard {
+    background-color: red;
+    display: grid;
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.attribution {
+    bottom: 10px;
 }
 
 body {
     color: white;
     background-color: hsl(226, 43%, 10%);
+}
+
+* {
+    border: 2px solid black;
 }
