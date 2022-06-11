@@ -1,7 +1,21 @@
 .container {
+    gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    margin: 5rem auto auto;
     display: grid;
     grid-template-columns: 2rem auto auto auto auto 2rem;
     grid-template-rows: 5rem auto auto 5rem;
+}
+
+.container-item {
+    background-color: #1d204b;
+    height: 100%;
+}
+
+.container * {
+    border-radius: 15px;
 }
 
 .profilephoto {
@@ -16,49 +30,101 @@
 }
 
 .usermenu {
-    background-color: red;
+    background-color: #5746ea;
     display: grid;
     grid-column: 2;
     grid-row: 2/4;
 }
 
+
+/*here starts the cards*/
+
+.workcard1 {
+    background-color: #ff8b64;
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .workcard {
-    background-color: red;
+    position: relative;
+    bottom: -5px;
+    height: 90%;
+    width: 99%;
+    background-color: #1d204b;
     display: grid;
     grid-column: 3;
     grid-row: 2;
 }
 
-.playcard {
-    background-color: red;
+.playcard1 {
+    background-color: #56c2e6;
     display: grid;
     grid-column: 4;
     grid-row: 2;
 }
 
-.studycard {
-    background-color: red;
+.playcard {
+    background-color: #1d204b;
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.studycard1 {
+    background-color: #ff5e7d;
     display: grid;
     grid-column: 5;
     grid-row: 2;
 }
 
-.exercisecard {
-    background-color: red;
+.studycard {
+    background-color: #1d204b;
+    display: grid;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.exercisecard1 {
+    background-color: #4bcf83;
     display: grid;
     grid-column: 3;
     grid-row: 3;
 }
 
-.socialcard {
-    background-color: red;
+.exercisecard {
+    background-color: #1d204b;
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.socialcard1 {
+    background-color: #7235d1;
     display: grid;
     grid-column: 4;
     grid-row: 3;
 }
 
+.socialcard {
+    background-color: #1d204b;
+    display: grid;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.selfacarecard1 {
+    background-color: #f1c75b;
+    display: grid;
+    grid-column: 5;
+    grid-row: 3;
+}
+
 .selfacarecard {
-    background-color: red;
+    background-color: #1d204b;
     display: grid;
     grid-column: 5;
     grid-row: 3;
@@ -68,11 +134,17 @@
     bottom: 10px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+h2 {
+    padding: 1rem;
+}
+
 body {
     color: white;
     background-color: hsl(226, 43%, 10%);
-}
-
-* {
-    border: 2px solid black;
 }
