@@ -22,8 +22,8 @@
     background-image: url("images/image-jeremy.png");
     border: none;
     border-radius: 45px;
-    width: 1rem;
-    height: 1rem;
+    width: 1.7rem;
+    height: 1.7rem;
     position: relative;
     top: 10px;
     left: 10px;
@@ -51,9 +51,6 @@
 
 .workcard {
     position: relative;
-    bottom: -5px;
-    height: 90%;
-    width: 99%;
     background-color: #1d204b;
     display: grid;
     grid-column: 3;
@@ -152,4 +149,8 @@ h2 {
 body {
     color: white;
     background-color: hsl(226, 43%, 10%);
+}
+
+.hide {
+    display: none;
 }
