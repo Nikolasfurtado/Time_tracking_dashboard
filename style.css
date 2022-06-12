@@ -61,6 +61,7 @@
 }
 
 .playcard1 {
+    background-image: url("images/icon-play.svg");
     background-color: #56c2e6;
     display: grid;
     grid-column: 4;
@@ -75,6 +76,7 @@
 }
 
 .studycard1 {
+    background-image: url("images/icon-study.svg");
     background-color: #ff5e7d;
     display: grid;
     grid-column: 5;
@@ -89,6 +91,7 @@
 }
 
 .exercisecard1 {
+    background-image: url("images/icon-exercise.svg");
     background-color: #4bcf83;
     display: grid;
     grid-column: 3;
@@ -103,6 +106,7 @@
 }
 
 .socialcard1 {
+    background-image: url("images/icon-social.svg");
     background-color: #7235d1;
     display: grid;
     grid-column: 4;
@@ -117,6 +121,7 @@
 }
 
 .selfacarecard1 {
+    background-image: url("images/icon-self-care.svg");
     background-color: #f1c75b;
     display: grid;
     grid-column: 5;
