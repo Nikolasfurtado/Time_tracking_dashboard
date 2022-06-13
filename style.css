@@ -40,6 +40,9 @@
 /*here starts the cards*/
 
 .workcard1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
     background-color: #ff8b64;
     display: grid;
     grid-column: 3;
@@ -52,9 +55,7 @@
 .workcard {
     position: relative;
     background-color: #1d204b;
-    display: grid;
-    grid-column: 3;
-    grid-row: 2;
+    margin: 20% 0 0 0;
 }
 
 .playcard1 {
@@ -67,9 +68,7 @@
 
 .playcard {
     background-color: #1d204b;
-    display: grid;
-    grid-column: 4;
-    grid-row: 2;
+    margin: 20% 0 0 0;
 }
 
 .studycard1 {
@@ -82,9 +81,7 @@
 
 .studycard {
     background-color: #1d204b;
-    display: grid;
-    grid-column: 5;
-    grid-row: 2;
+    margin: 20% 0 0 0;
 }
 
 .exercisecard1 {
@@ -97,9 +94,7 @@
 
 .exercisecard {
     background-color: #1d204b;
-    display: grid;
-    grid-column: 3;
-    grid-row: 3;
+    margin: 20% 0 0 0;
 }
 
 .socialcard1 {
@@ -112,9 +107,7 @@
 
 .socialcard {
     background-color: #1d204b;
-    display: grid;
-    grid-column: 4;
-    grid-row: 3;
+    margin: 20% 0 0 0;
 }
 
 .selfacarecard1 {
@@ -127,9 +120,7 @@
 
 .selfacarecard {
     background-color: #1d204b;
-    display: grid;
-    grid-column: 5;
-    grid-row: 3;
+    margin: 20% 0 0 0;
 }
 
 .attribution {
@@ -153,4 +144,12 @@ body {
 
 .hide {
     display: none;
+}
+
+button {
+    background-color: none;
+    border: none;
+    background: none;
+    color: white;
+    line-height: 2;
 }

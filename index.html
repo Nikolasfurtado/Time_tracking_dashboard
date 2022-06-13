@@ -8,7 +8,9 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300&family=Overpass:wght@400;900&family=Rubik:wght@300;400;500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <!--css local link-->
 
     <link rel="stylesheet" href="style.css">
@@ -41,19 +43,19 @@
 
             <div class="container-item">
 
-                <button onclick="showresult()">Daily</button>
-                <a href="" onclick="showresult()"> Daily</a>
-                <a href="">Weekly</a><br>
-                <a href="">Monthly</a>
+                <button onmouseenter="showday()">Daily</button> <br>
+                <button onmouseenter="showweek()">Weekly</button><br>
+                <button id="refresh" onclick="showmonth()">Monthly</button>
+
 
             </div>
         </div>
 
         <div class="workcard1">
             <div class="workcard">
-
+                Work
                 <div class="dayshow">
-                    Work 5hrs
+                    5hrs
                     <!-- daily -->
                     Previous - 7hrs
                     <!-- daily -->
@@ -76,8 +78,9 @@
 
         <div class="playcard1">
             <div class="playcard">
+                Play
                 <div class="dayshow">
-                    Play 1hr
+                    1hr
                     <!-- daily -->
                     Previous - 2hrs
                     <!-- daily -->
@@ -97,15 +100,16 @@
             </div>
         </div>
         <div class="studycard1">
+
             <div class="studycard">
+                Study
+                <div class="dayshow">
 
-                <div id="dayshow">
-
-                    Study 0hrs
+                    0hrs
                     <!-- daily -->
                     Previous - 1hr
                 </div>
-                <div class="dayshow">
+                <div class="weekshow">
                     <!-- daily -->
 
                     4hrs
@@ -127,10 +131,10 @@
 
         <div class="exercisecard1">
             <div class="exercisecard">
-
+                Exercise
                 <div class="dayshow">
 
-                    Exercise 1hr
+                    1hr
                     <!-- daily -->
                     Previous - 1hr
                     <!-- daily -->
@@ -156,9 +160,10 @@
 
         <div class="socialcard1">
             <div class="socialcard">
+                Social
                 <div class="dayshow">
 
-                    Social 1hr
+                    1hr
                     <!-- daily -->
                     Previous - 3hrs
                     <!-- daily -->
@@ -182,9 +187,10 @@
         </div>
         <div class="selfacarecard1">
             <div class="selfacarecard">
+                Self Care
                 <div class="dayshow">
 
-                    Self Care 0hrs
+                    0hrs
                     <!-- daily -->
                     Previous - 1hr
                     <!-- daily -->
