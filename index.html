@@ -32,28 +32,28 @@
 <body>
     <script src="datestate.js"></script>
 
-    <p id="firstscreen">xauxaxaxaxaxaxa</p>
-    <div class="container">
+
+    <div id="container" class="container">
 
         <div class="usermenu">
-            <img class="profilephoto" src="images/image-jeremy.png" alt="">
+            <img class="profilephoto" src="images/itsme.jfif" alt="">
 
-            <p>Report for </p>
-            <h2>Jeremy Robson</h2>
+            <p id="report">Report for </p>
+            <h2 id="person">Nikolas Furtado</h2>
 
             <div class="container-item">
 
-                <button onmouseenter="showday()">Daily</button> <br>
-                <button onmouseenter="showweek()">Weekly</button><br>
-                <button id="refresh" onclick="showmonth()">Monthly</button>
+                <button onmouseleave="reload()" onmouseenter="showday()">Daily</button> <br>
+                <button onmouseleave="reload()" onmouseenter="showweek()">Weekly</button><br>
+                <button onmouseleave="reload()" onmouseenter="showmonth()">Monthly</button>
 
 
             </div>
         </div>
-
         <div class="workcard1">
             <div class="workcard">
-                Work
+                <h4> Work
+                </h4>
                 <div class="dayshow">
                     5hrs
                     <!-- daily -->
@@ -78,7 +78,7 @@
 
         <div class="playcard1">
             <div class="playcard">
-                Play
+                <h4> Play</h4>
                 <div class="dayshow">
                     1hr
                     <!-- daily -->
@@ -102,7 +102,7 @@
         <div class="studycard1">
 
             <div class="studycard">
-                Study
+                <h4> Study</h4>
                 <div class="dayshow">
 
                     0hrs
@@ -131,7 +131,7 @@
 
         <div class="exercisecard1">
             <div class="exercisecard">
-                Exercise
+                <h4> Exercise</h4>
                 <div class="dayshow">
 
                     1hr
@@ -160,7 +160,7 @@
 
         <div class="socialcard1">
             <div class="socialcard">
-                Social
+                <h4>Social</h4>
                 <div class="dayshow">
 
                     1hr
@@ -187,7 +187,7 @@
         </div>
         <div class="selfacarecard1">
             <div class="selfacarecard">
-                Self Care
+                <h4>Self Care</h4>
                 <div class="dayshow">
 
                     0hrs

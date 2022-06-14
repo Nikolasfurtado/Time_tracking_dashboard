@@ -22,8 +22,8 @@
     background-image: url("images/image-jeremy.png");
     border: none;
     border-radius: 45px;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 3rem;
+    height: 3rem;
     position: relative;
     top: 10px;
     left: 10px;
@@ -40,16 +40,14 @@
 /*here starts the cards*/
 
 .workcard1 {
-    padding: 0;
-    margin: 0;
-    border: 0;
     background-color: #ff8b64;
+    background-size: 3em;
+    background-position: 90% -10%;
     display: grid;
     grid-column: 3;
     grid-row: 2;
     background-image: url("images/icon-work.svg");
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .workcard {
@@ -60,6 +58,9 @@
 
 .playcard1 {
     background-image: url("images/icon-play.svg");
+    background-position: 90% -10%;
+    background-size: 3em;
+    background-repeat: no-repeat;
     background-color: #56c2e6;
     display: grid;
     grid-column: 4;
@@ -73,6 +74,9 @@
 
 .studycard1 {
     background-image: url("images/icon-study.svg");
+    background-position: 90% -10%;
+    background-size: 3em;
+    background-repeat: no-repeat;
     background-color: #ff5e7d;
     display: grid;
     grid-column: 5;
@@ -86,6 +90,9 @@
 
 .exercisecard1 {
     background-image: url("images/icon-exercise.svg");
+    background-position: 90% 0%;
+    background-size: 3em;
+    background-repeat: no-repeat;
     background-color: #4bcf83;
     display: grid;
     grid-column: 3;
@@ -99,6 +106,9 @@
 
 .socialcard1 {
     background-image: url("images/icon-social.svg");
+    background-position: 90% -10%;
+    background-size: 3em;
+    background-repeat: no-repeat;
     background-color: #7235d1;
     display: grid;
     grid-column: 4;
@@ -112,6 +122,9 @@
 
 .selfacarecard1 {
     background-image: url("images/icon-self-care.svg");
+    background-position: 90% -10%;
+    background-size: 3em;
+    background-repeat: no-repeat;
     background-color: #f1c75b;
     display: grid;
     grid-column: 5;
@@ -137,6 +150,11 @@ h2 {
     padding: 1rem;
 }
 
+h4 {
+    text-align: left;
+    margin: 10%;
+}
+
 body {
     color: white;
     background-color: hsl(226, 43%, 10%);
@@ -152,4 +170,20 @@ button {
     background: none;
     color: white;
     line-height: 2;
+    padding: 10px;
+}
+
+.dayshow,
+.weekshow,
+.monthshow {
+    color: white;
+}
+
+#report {
+    margin: 2rem 2rem 0rem 2rem;
+    text-align: left;
+}
+
+#person {
+    margin: 0 1px 1px 1px;
 }
